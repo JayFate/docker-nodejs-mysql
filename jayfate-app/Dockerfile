@@ -1,4 +1,4 @@
-FROM node:14
+FROM node:lts
 
 WORKDIR /jayfate-app
 COPY package.json .
